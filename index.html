@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es-CO" dir="ltr" itemscope itemtype="https://schema.org/BarberShop">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Elite - Corte y Estilo Profesional</title>
+    <meta name="title" content="Barbería Elite - Corte y Estilo Profesional">
+    <meta name="description" content="Barbería profesional con los mejores estilistas de Colombia">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/flaticon.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <ul class="header-top-list">
+                    
+                    <li class="header-top-item">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <p class="item-title">Llámanos:</p>
+                        <a href="tel:01234567895" class="item-link">302 566 5067</a>
+                    </li>
+
+                    <li class="header-top-item">
+                        <ion-icon name="time-outline"></ion-icon>
+                        <p class="item-title">Horario:</p>
+                        <p class="item-text">Lunes a Sábado, 8:00 am - 8:00 pm</p>
+                    </li>
+
+                    <li>
+                        <ul class="social-list">
+                            <li><a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                            <li><a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                            <li><a href="#" class="social-link"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-bottom" data-header>
+            <div class="container">
+                
+                <a href="#" class="logo">
+                    Barbería Elite
+                    <span class="span">Estilo Colombiano</span>
+                </a>
+
+                <nav class="navbar container" data-navbar>
+                    <ul class="navbar-list">
+                        <li class="navbar-item"><a href="#home" class="navbar-link" data-nav-link>Inicio</a></li>
+                        <li class="navbar-item"><a href="#services" class="navbar-link" data-nav-link>Servicios</a></li>
+                        <li class="navbar-item"><a href="#pricing" class="navbar-link" data-nav-link>Precios</a></li>
+                        <li class="navbar-item"><a href="#gallery" class="navbar-link" data-nav-link>Galería</a></li>
+                        <li class="navbar-item"><a href="#appointment" class="navbar-link" data-nav-link>Citas</a></li>
+                        <li class="navbar-item"><a href="#contact" class="navbar-link" data-nav-link>Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <button class="nav-toggle-btn" aria-label="Abrir menú" data-nav-toggler>
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+
+                <a href="#appointment" class="btn has-before">
+                    <span class="span">Agendar Ahora</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                </a>
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article>
+    
+            <section class="section hero has-before has-bg-image" id="home" aria-label="Inicio"
+                style="background-image: url('./assets/images/hero-banner.jpg')">
+                <div class="container">
+    
+                    <h1 class="h1 hero-title">Estilo y Tradición Barberil</h1>
+    
+                    <p class="hero-text">
+                        Servicios profesionales de barbería con los estándares más altos de calidad y atención personalizada.
+                    </p>
+    
+                    <a href="#services" class="btn has-before">
+                        <span class="span">Ver Servicios</span>
+                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                    </a>
+    
+                </div>
+            </section>
+    
+            <section class="section service" id="services" aria-label="Servicios">
+                <div class="container">
+    
+                    <h2 class="h2 section-title text-center">Nuestros Servicios</h2>
+    
+                    <p class="section-text text-center">
+                        Descubre nuestra gama completa de servicios profesionales
+                    </p>
+    
+                    <ul class="grid-list">
+    
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <i class="flaticon-salon"></i>
+                                </div>
+    
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Cortes Clásicos</a>
+                                </h3>
+    
+                                <p class="card-text">
+                                    Técnicas tradicionales y modernas para todo tipo de cabello.
+                                </p>
+    
+                                <a href="#" class="card-btn" aria-label="Más información">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+    
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <i class="flaticon-shampoo"></i>
+                                </div>
+    
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Tratamientos Capilares</a>
+                                </h3>
+    
+                                <p class="card-text">
+                                    Limpieza profunda y tratamientos especializados.
+                                </p>
+    
+                                <a href="#" class="card-btn" aria-label="Más información">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+    
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <i class="flaticon-hot-stone"></i>
+                                </div>
+    
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Terapias Corporales</a>
+                                </h3>
+    
+                                <p class="card-text">
+                                    Masajes relajantes y terapias de rejuvenecimiento.
+                                </p>
+    
+                                <a href="#" class="card-btn" aria-label="Más información">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+    
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <i class="flaticon-treatment"></i>
+                                </div>
+    
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Estética Masculina</a>
+                                </h3>
+    
+                                <p class="card-text">
+                                    Servicios completos de cuidado facial y corporal.
+                                </p>
+    
+                                <a href="#" class="card-btn" aria-label="Más información">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+    
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <i class="flaticon-shaving-razor"></i>
+                                </div>
+    
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Afeitado Clásico</a>
+                                </h3>
+    
+                                <p class="card-text">
+                                    Técnica tradicional con navaja y productos premium.
+                                </p>
+    
+                                <a href="#" class="card-btn" aria-label="Más información">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+    
+                        <li>
+                            <div class="service-card">
+                                <div class="card-icon">
+                                    <i class="flaticon-hair-dye"></i>
+                                </div>
+    
+                                <h3 class="h3">
+                                    <a href="#" class="card-title">Coloración Profesional</a>
+                                </h3>
+    
+                                <p class="card-text">
+                                    Tintes de calidad y técnicas de mechas especializadas.
+                                </p>
+    
+                                <a href="#" class="card-btn" aria-label="Más información">
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </a>
+                            </div>
+                        </li>
+    
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="section pricing has-bg-image has-before" id="pricing" aria-label="Precios"
+                style="background-image: url('./assets/images/pricing-bg.jpg')">
+                <div class="container">
+    
+                    <h2 class="h2 section-title text-center">Nuestros Precios</h2>
+    
+                    <p class="section-text text-center">
+                        Servicios de calidad a precios competitivos
+                    </p>
+    
+                    <div class="pricing-tab-container">
+    
+                        <ul class="tab-filter">
+                            <li>
+                                <button class="filter-btn active" data-filter-btn="all">
+                                    <div class="btn-icon">
+                                        <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="btn-text">Todos</p>
+                                </button>
+                            </li>
+    
+                            <li>
+                                <button class="filter-btn" data-filter-btn="barba">
+                                    <div class="btn-icon">
+                                        <i class="flaticon-razor-blade" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="btn-text">Cuidado de Barba</p>
+                                </button>
+                            </li>
+    
+                            <li>
+                                <button class="filter-btn" data-filter-btn="corte">
+                                    <div class="btn-icon">
+                                        <i class="flaticon-scissors" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="btn-text">Cortes</p>
+                                </button>
+                            </li>
+                        </ul>
+    
+                        <ul class="grid-list">
+                            <li data-filter="corte">
+                                <div class="pricing-card">
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-1.jpg" width="90" height="90" 
+                                             alt="Corte Clásico" class="img-cover">
+                                    </figure>
+    
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Corte Clásico</h3>
+                                        <p class="card-text">Incluye lavado y acabado profesional</p>
+                                    </div>
+    
+                                    <data class="card-price" value="45000">$45.000</data>
+                                </div>
+                            </li>
+    
+                            <li data-filter="barba">
+                                <div class="pricing-card">
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                        <img src="./assets/images/pricing-2.jpg" width="90" height="90" 
+                                             alt="Afeitado Premium" class="img-cover">
+                                    </figure>
+    
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Afeitado Premium</h3>
+                                        <p class="card-text">Con productos de primera calidad</p>
+                                    </div>
+    
+                                    <data class="card-price" value="35000">$35.000</data>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="section gallery" id="gallery" aria-label="Galería">
+                <div class="container">
+                    <div class="title-wrapper">
+                        <div>
+                            <h2 class="h2 section-title">Nuestro Trabajo</h2>
+                            <p class="section-text">
+                                Descubre nuestros últimos trabajos y estilo característico
+                            </p>
+                        </div>
+    
+                        <a href="#contact" class="btn has-before">
+                            <span class="span">Ver Más</span>
+                            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                        </a>
+                    </div>
+    
+                    <ul class="grid-list">
+                        <li>
+                            <div class="gallery-card">
+                                <figure class="card-banner img-holder" style="--width: 422; --height: 550;">
+                                    <img src="./assets/images/gallery-1.jpg" width="422" height="550" 
+                                         loading="lazy" alt="Corte Moderno" class="img-cover">
+                                </figure>
+    
+                                <div class="card-content">
+                                    <h3 class="h3 card-title">Estilo Moderno</h3>
+                                    <p class="card-text">Técnicas actualizadas</p>
+                                    <a href="#" class="card-btn" aria-label="Ver detalle">
+                                        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+    
+            <section class="section appoin" id="appointment" aria-label="Citas">
+                <div class="container">
+                    <div class="appoin-card">
+                        <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+                            <img src="./assets/images/appoin-banner-1.jpg" width="250" height="774" 
+                                 loading="lazy" alt="Agendar cita" class="img-cover">
+                        </figure>
+    
+                        <div class="card-content">
+                            <h2 class="h2 section-title">Agendar Cita</h2>
+    
+                            <p class="section-text">
+                                Completa el formulario y reserva tu hora con nuestros expertos
+                            </p>
+    
+                            <form action="" class="appoin-form">
+                                <div class="input-wrapper">
+                                    <input type="text" name="name" placeholder="Nombre completo" 
+                                           required class="input-field">
+    
+                                    <input type="email" name="email" placeholder="Correo electrónico" 
+                                           required class="input-field">
+                                </div>
+    
+                                <div class="input-wrapper">
+                                    <input type="tel" name="phone" placeholder="Teléfono" 
+                                           required class="input-field">
+    
+                                    <select name="service" class="input-field" required>
+                                        <option value="">Seleccionar servicio</option>
+                                        <option value="corte">Corte de Cabello</option>
+                                        <option value="barba">Afeitado</option>
+                                        <option value="combo">Servicio Completo</option>
+                                    </select>
+                                </div>
+    
+                                <input type="date" name="date" required class="input-field date">
+    
+                                <textarea name="message" placeholder="Notas adicionales" 
+                                          class="input-field"></textarea>
+    
+                                <button type="submit" class="form-btn">
+                                    <span class="span">Confirmar Cita</span>
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </button>
+                            </form>
+                        </div>
+    
+                        <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+                            <img src="./assets/images/appoin-banner-2.jpg" width="250" height="774" 
+                                 loading="lazy" alt="Barbero trabajando" class="img-cover">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+    
+        </article>
+    </main>
+    
+    <footer class="footer has-bg-image" id="contact" 
+            style="background-image: url('./assets/images/footer-bg.png')">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        Barbería Elite
+                        <span class="span">Bogotá D.C.</span>
+                    </a>
+    
+                    <div class="contact-info">
+                        <p class="contact-text">
+                            Carrera 15 #88-64<br>
+                            Barrio Chapinero<br>
+                            Bogotá, Colombia
+                        </p>
+    
+                        <a href="tel:+571234567890" class="contact-link">+57 1 234 5678</a>
+                    </div>
+                </div>
+    
+                <div class="footer-link-box">
+                    <ul class="footer-list">
+                        <li><p class="footer-list-title">Enlaces Rápidos</p></li>
+                        <li><a href="#services" class="footer-link has-before">Servicios</a></li>
+                        <li><a href="#pricing" class="footer-link has-before">Precios</a></li>
+                        <li><a href="#gallery" class="footer-link has-before">Galería</a></li>
+                    </ul>
+    
+                    <ul class="footer-list">
+                        <li><p class="footer-list-title">Horarios</p></li>
+                        <li><p class="footer-text">Lunes - Viernes: 8am - 8pm</p></li>
+                        <li><p class="footer-text">Sábados: 9am - 6pm</p></li>
+                        <li><p class="footer-text">Domingos: Cerrado</p></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © 2023 Barbería Elite. Todos los derechos reservados.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#top" class="back-top-btn" aria-label="Volver arriba" data-back-top-btn>
+        <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <script type="module" src="./assets/js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
