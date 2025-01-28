@@ -1,0 +1,61 @@
+# .github/dependabot.yml
+
+version: 2
+
+updates:
+  # Configuración para npm (JavaScript/Node.js)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"  # daily, weekly, monthly
+    labels:
+      - "dependencies"
+    assignees:
+      - "SEBASCMB"
+    commit-message:
+      prefix: "chore(deps)"
+    ignore:
+      - dependency-name: "react"
+        versions: ["17.x.x"]  # Ignora actualizaciones específicas
+
+  # Configuración para Docker
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    reviewers:
+      - "equipo-devops"
+
+  # Configuración para GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+
+  # Configuración para Python (pip)
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Configuración para Java (Maven)
+  - package-ecosystem: "maven"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+
+  # Configuración para Ruby (bundler)
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+# Opcional: Habilitar actualizaciones de seguridad (solo para repos privados)
+enable-security-updates: true
+
+# Opcional: Auto-fusionar actualizaciones menores
+# (requiere habilitar "auto-merge" en GitHub)
+# automerged-updates:
+#   - match:
+#       dependency-type: "all"
+#       update-type: "semver:minor"
